@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+header.masthead {
+  padding-top: 0;
+  padding-bottom: calc(10rem - 1.5rem);
+  background: linear-gradient(to bottom, rgba(74, 108, 119, 0.5) 0%, rgba(32, 54, 61, 0.384) 100%), url("../assets/img/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.masthead h1 {
+  font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.consultaviajero {
+  
+  background-color: #64c5cc;
+
+}
+
+.terminosycondiciones {
+
+  background-color: #f7f7f7;
+
+}
+
+.bg-light {
+
+  background-color: none;
+
+}
+
+.menu {
+
+  background-color: rgba(33, 56, 84, 0.062);
+  border-bottom: .1px solid #57adb3;
+
+}
+
+.navbar a {
+
+  color: white !important;
+
+}
+
+.navbar a {
+
+  color: darkgrey;
+
+}
+
+.navbar-toggler {
+
+  border: 1px solid white;
+
+}
+
+.idioma {
+
+  color: rgb(255, 255, 255);
+
+
+}
+
+.idioma select {
+
+  border: none;
+  background-color: transparent;
+  color: rgb(49, 191, 216);
+  font-size: 12px;
+
+}
+
+.finalfoot {
+
+  background-color: rgba(33, 56, 84, 1);
+
+}
+
+.btn {
+
+  padding: 10px 40px;
+
+}
+
+.btn-viajero {
+
+  background-color: #64c5cc;
+  border-radius: 4px;
+  color: white;
+
+}
+
+.btn-viajero:hover {
+
+  color: white;
+
+}
+
+.btn-viajero2 {
+
+  background-color: none;
+  border-radius: 4px;
+  color: white;
+  border: solid .5px white;
+
+}
+
+.btn-viajero2:hover {
+
+  color: white;
+
+}
+
+/* ///////////////// Foot3 - Contactos ///////////////// */
+
+.contactZ {
+
+  text-align: center;
+  flex-direction: column;
+
+}
+
+.contactZ a img {
+  max-height: 62px;
+}
+
+.contactZ a {
+
+  align-self: center;
+
+}
+
+.col-lg-2 {
+
+  min-width: 20%;
+
+}
+
+.logoGI {
+
+  max-width: 180px;
+  min-width: 70px;
+
+}
+
+.titulos {
+
+  padding-top: 50px;
+
+}
+
+@media screen and (min-width: 720px) {
+    /* ///////////////// Foot3 - Contactos ///////////////// */
+
+    .contactZ {
+
+      text-align: center;
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      
+  }
+
+  .contactZ a {
+
+    align-self: flex-start;
+  
+  }
+
+  .contactZ img {
+
+      max-height: 68px;
+
+  }
+
+  .titulos {
+
+    padding-top: 0px;
+  
+  }
+
+}
+
